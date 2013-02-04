@@ -38,7 +38,7 @@ $CASAuth = array(
 	"Url"            => "/cas/",              // Subdir to CAS authentication.
 	"Version"        => "2.0",                        // CAS version, should be either 1.0 or 2.0.
 	"CreateAccounts" => true,                         // Should CASAuth create accounts on the wiki? Should be true unless all accounts already exists on the wiki!
-	"PwdSecret"      => "MonkEY76rED3y3", // A random string that is used when generating the MediaWiki password for this user. YOU SHOULD EDIT THIS TO A VERY RANDOM STRING! YOU SHOULD ALSO KEEP THIS A SECRET!
+	"PwdSecret"      => "xxxxx", // A random string that is used when generating the MediaWiki password for this user. YOU SHOULD EDIT THIS TO A VERY RANDOM STRING! YOU SHOULD ALSO KEEP THIS A SECRET!
 	"EmailDomain"    => "evergreen.edu",                   // The default domain for new users email address (is appended to the username).
 	"RememberMe"     => true,                         // Log in users with the 'Remember me' option.
 );
