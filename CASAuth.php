@@ -32,7 +32,7 @@ $wgExtensionCredits["other"][] = array(
 //--------------------------------------------------------------------------
  
 $CASAuth = array(
-	"phpCAS"         => "$IP/extensions/CASAuth/CAS", // Path to phpCAS directory.
+	"phpCAS"         => "$IP/local_extensions/CASAuth/CAS", // Path to phpCAS directory.
 	"Server"         => "cas.evergreen.edu",        // Address to CAS server.
 	"Port"           => 443,                          // Port to CAS server. Default: 443.
 	"Url"            => "/cas/",              // Subdir to CAS authentication.
