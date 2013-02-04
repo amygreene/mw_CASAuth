@@ -32,13 +32,13 @@ $wgExtensionCredits["other"][] = array(
 //--------------------------------------------------------------------------
  
 $CASAuth = array(
-	"phpCAS"         => "$IP/extensions/CASAuth/CAS", // Path to phpCAS directory.
+	"phpCAS"         => "$IP/local_extensions/CASAuth/CAS", // Path to phpCAS directory.
 	"Server"         => "cas.evergreen.edu",        // Address to CAS server.
 	"Port"           => 443,                          // Port to CAS server. Default: 443.
 	"Url"            => "/cas/",              // Subdir to CAS authentication.
 	"Version"        => "2.0",                        // CAS version, should be either 1.0 or 2.0.
 	"CreateAccounts" => true,                         // Should CASAuth create accounts on the wiki? Should be true unless all accounts already exists on the wiki!
-	"PwdSecret"      => "MonkEY76rED3y3", // A random string that is used when generating the MediaWiki password for this user. YOU SHOULD EDIT THIS TO A VERY RANDOM STRING! YOU SHOULD ALSO KEEP THIS A SECRET!
+	"PwdSecret"      => "xxxxxx", // A random string that is used when generating the MediaWiki password for this user. YOU SHOULD EDIT THIS TO A VERY RANDOM STRING! YOU SHOULD ALSO KEEP THIS A SECRET!
 	"EmailDomain"    => "evergreen.edu",                   // The default domain for new users email address (is appended to the username).
 	"RememberMe"     => true,                         // Log in users with the 'Remember me' option.
 );
